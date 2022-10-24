@@ -20,15 +20,15 @@ struct ContentView: View {
 
                 .foregroundColor(.black)
             HStack{
-                Toggle("Include milk  🥛", isOn: $iCed)
+                Toggle("Include milk 🥛", isOn: $iCed)
                 
             }
             HStack{
-                Toggle("Iced  🧊", isOn: $milk)
+                Toggle("Iced 🧊", isOn: $milk)
                 
             }
             HStack{
-                Toggle("Spoon of suger  🥄", isOn: $suger)
+                Toggle("Spoon of suger 🥄", isOn: $suger)
                 
             }
             HStack{
